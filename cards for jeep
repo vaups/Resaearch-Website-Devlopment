@@ -1,0 +1,136 @@
+<div class="card-container">
+    <!-- Card for Wrangler -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/wrangler.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Wrangler</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $31,195</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Wrangler 4xe -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/wrangler.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Wrangler</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $31,195</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Grand Cherokee -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/grand-cherokee.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Grand Cherokee</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $41,530</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Grand Cherokee L (3-Row) -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/grand-cherokee-l.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Grand Cherokee L (3-ROW)</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $43,530</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Compass -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/compass.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Compass</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $27,285</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Cherokee -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/cherokee.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cherokee</h5>
+                <p class="card-text">MSRP* STARTING AT<span>
+                        $34,895</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Renegade -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/renegade.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Renegade</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $24,695</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Gladiator -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/gladiator.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Gladiator</h5>
+
+                <p class="card-text">MSRP* STARTING AT<span> $38,775</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Wagoneer -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/wagoneer.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Wagoneer</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $58,995</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Grand Wagoneer -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/grand-wagoneer.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Grand Wagoneer</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $88,640</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Grand Cherokee 4xe -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/grand-cherokee-4xe.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Grand Cherokee 4xe</h5>
+                <p class="card-text">MSRP* STARTING AT<span> $60,360</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+    <!-- Card for Wrangler Limited Series -->
+    <div class="card-item">
+        <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+            <img src="./img/nav/jeep/hightide2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Wrangler Limited Series</h5>
+                <p class="card-text">MODELS AVAILABLE<span> 4</span></p>
+            </div>
+            <button class="button-18" role="button">Explore</button>
+        </div>
+    </div>
+</div>
