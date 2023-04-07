@@ -18,6 +18,7 @@ ul.navbar-nav.global-nav {
   max-width: 1920px;
   list-style: none;
 }
+
 .nav-item {
   margin: 0 10px;
 }
@@ -50,7 +51,7 @@ a.nav-link.mainn:hover, a.nav-link.mainn.show {
 
 .navbar {
   max-height: 48px;
-  z-index: 100;
+  z-index: 1020;
   position: relative;
 }
 
@@ -64,6 +65,10 @@ div#navbarNav.collapse.navbar-collapse.justify-content-center {
 
 .nav-item.has-megamenu {
   position: static;
+}
+
+.dropdown-menu {
+  transform-origin: top;
 }
 
 .dropdown-menu.dropdown-megamenu .nav-tabs .nav-link {
@@ -81,20 +86,26 @@ div#navbarNav.collapse.navbar-collapse.justify-content-center {
 }
 
 /* Mega Menu */
+.dropdown-container {
+  width: 1440px;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+}
+
 .dropdown-megamenu {
-  position: absolute;
-  width: 100%;
-  background-color: #dedede;
+  background: #ffffff;
   border: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  transition: all 1s;
+  border-radius: 0;
+  margin-top: -0.5rem;
+  padding: 30px 30px 30px 30px;
+  width: 1440px; /* Add this line */
 }
 
 .has-megamenu .dropdown-megamenu {
   position: fixed;
   top: 100%;
   left: 0;
-  width: 100%;
+  width:  100%;
   background-color: #ffffff;
   border-radius: 0;
   display: none;
@@ -112,12 +123,13 @@ div#navbarNav.collapse.navbar-collapse.justify-content-center {
 /* Dropdown Icon Rotation */
 .has-megamenu:hover .dropdown-toggle {
   transform: none;
-  }
+}
+
 .has-megamenu .dropdown-toggle.show::after {
-pointer-events: auto;
-transform: rotate(180deg);
-transform-style: preserve-3d;
-transition: ease-in .2s;
+  pointer-events: auto;
+  transform: rotate(180deg);
+  transform-style: preserve-3d;
+  transition: ease-in .2s;
 }
 
 
@@ -126,7 +138,7 @@ transition: ease-in .2s;
 .sub-navigation {
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 1000;
   width: 100%;
   background-color: #fff;
   height: 60px;
@@ -136,7 +148,7 @@ transition: ease-in .2s;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 1000;
   background-color: #fff;
 }
 
@@ -159,7 +171,7 @@ ul.nav-tabs.nav-justified li.nav-item {
 
 .nav-link span.subnav {
   font-size: 14px;
-  color:#00324F;
+  color: #00324F;
   font-weight: bold;
 }
 
@@ -180,18 +192,18 @@ ul.nav-tabs.nav-justified li.nav-item {
 }
 
 .nav-tabs .nav-item:not(:first-child) .nav-link {
-padding: 0px 30px;
+  padding: 0px 30px;
 }
 
 .nav-tabs .nav-item:not(:last-child)::after {
-content: "";
-position: absolute;
-width: 1.5px;
-height: 18px;
-background-color: #dedede;
-right: 0;
-top: 50%;
-margin-top: -9px;
+  content: "";
+  position: absolute;
+  width: 1.5px;
+  height: 18px;
+  background-color: #dedede;
+  right: 0;
+  top: 50%;
+  margin-top: -9px;
 }
 
 /* Card Styles */
@@ -201,12 +213,14 @@ margin-top: -9px;
   padding: 16px 0px 10px;
   letter-spacing: .5px;
 }
+
 h2.brand-heading {
   font-size: 14px;
   text-transform: uppercase;
   color: #00324F;
   font-weight: 600;
 }
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +236,7 @@ h2.brand-heading {
 }
 
 .card {
-position: relative;
+  position: relative;
 }
 
 .card-body {
@@ -233,19 +247,19 @@ position: relative;
 }
 
 .card-title {
-font-family: 'Sen', sans-serif;
-font-weight: 700;
-font-size: 1.3rem;
+  font-family: 'Sen', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 .card-text {
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 200;
-font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
 }
 
 .card-text span {
-font-weight: bold;
+  font-weight: bold;
 }
 
 .button-18 {
@@ -290,7 +304,7 @@ font-weight: bold;
 }
 
 .card:hover {
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 ul.nav.nav-tabs.nav-justified {
@@ -352,7 +366,8 @@ ul.nav.nav-tabs.nav-justified {
 
 .hero-heading {
   position: absolute;
-  bottom: calc(25px + 40px + 5px + 10px); /* 25px above pagination, button height, padding, and 10px gap */
+  bottom: calc(25px + 40px + 5px + 10px);
+  /* 25px above pagination, button height, padding, and 10px gap */
   left: 50%;
   transform: translate(-50%, 0);
   color: #fff;
